@@ -3,9 +3,9 @@ import { useState } from "react";
 import Button from "@mui/material/Button";
 import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
-import Select, { SelectChangeEvent } from "@mui/material/Select";
+import Select from "@mui/material/Select";
 import styles from "./ToDoList.module.css";
-import Box from "@mui/material/Box";
+// import Box from "@mui/material/Box";
 
 import TableCell from "@mui/material/TableCell";
 import TableRow from "@mui/material/TableRow";
@@ -150,13 +150,13 @@ export const ToDoList = () => {
       </TableRow>
     );
   };
-  const display2 = (i: Task) => {
-    return (
-      <li>
-        {i.label} ( {i.priority} )
-      </li>
-    );
-  };
+//   const display2 = (i: Task) => {
+//     return (s
+//       <li>
+//         {i.label} ( {i.priority} )
+//       </li>
+//     );
+//   };
   const addTask = () => {
     if (
       todoList.findIndex((t) => t.label === currtask) !== -1 ||

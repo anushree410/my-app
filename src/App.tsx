@@ -10,14 +10,15 @@ import SpringTaskMain from "./todo_spring/SpringTaskMain";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
+        <Navbar />
+        <Routes>
         <Route path="/bmi_calc" element={<BMIElement />} />
-        <Route path="/notes" element={<NoteMain />} />
         <Route path="/todo" element={<ToDoList />} />
         <Route path="/todo_redux" element={<TaskMain />} />
+        <Route path="/notes" element={<NoteMain />} />
         <Route path="/todo_spring" element={<SpringTaskMain />} />
-      </Routes>
+         </Routes>
+
     </div>
   );
 }

@@ -10,10 +10,10 @@ type BMIStateType = {
   wterr: boolean;
   bmi: number;
 };
-type BindingType = {
-  value: any;
-  onInput: (e: any) => void;
-};
+// type BindingType = {
+//   value: any;
+//   onInput: (e: any) => void;
+// };
 
 export const BMIElement = () => {
   const [BMIStateObject, setBMIState] = useState<BMIStateType>({
@@ -34,7 +34,7 @@ export const BMIElement = () => {
           ? (wt * 10000) / (ht * ht)
           : NaN,
     });
-  }, [ht, wt]);
+  }, []);
 
   return (
     <Box component="form">

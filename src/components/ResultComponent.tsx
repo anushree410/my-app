@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 
 export const ResultComponent: React.FC<{ bmi: number }> = React.memo(
   // const BMIContextObj = useContext(BMIContext);
