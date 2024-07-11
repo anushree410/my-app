@@ -1,0 +1,14 @@
+.splitScreen{
+    display: flex;
+    /* flex:1; */
+    /* flexDirection: 'row'; */
+}
+.leftPane{
+    flex:1;
+}
+.centerPane{
+    flex:1;
+}
+.rightPane{
+    flex:1;
+}

@@ -1,0 +1,15 @@
+.small{
+    width:240px;
+    height: 1.5rem;
+    font-size: 0.7rem;
+}
+.medium{
+    width:320px;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.large{
+    width:400px;
+    height: 3.5rem;
+    font-size: 1.75rem;
+}
