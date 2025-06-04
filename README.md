@@ -9,7 +9,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Learning React:
 1) BMI Calculator
-2) To do list
+2) To do list (in Redux, Hooks and with a backend spring application)
 3) Notes
 
 ![image](https://github.com/user-attachments/assets/4f14da00-c758-489a-9e2d-414d1b493d43)
