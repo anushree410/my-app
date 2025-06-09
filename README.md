@@ -12,6 +12,8 @@ Learning React:
 2) To do list (in Redux, Hooks and with a backend spring application)
 3) Notes
 
+![image](https://github.com/user-attachments/assets/c6d6d6db-e139-4aed-b409-e046bec8a406)
+
 ![image](https://github.com/user-attachments/assets/4f14da00-c758-489a-9e2d-414d1b493d43)
 
 ![image](https://github.com/user-attachments/assets/ac782fe9-623d-4c7d-945d-e3f3b87a089a)
