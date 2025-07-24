@@ -22,7 +22,7 @@ function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-           <NavLink link="/bmi_calc">BMI Calc</NavLink>
+          <NavLink link="/bmi_calc">BMI Calc</NavLink>
           <NavLink link="/todo">ToDoList Hooks</NavLink>
           <NavLink link="/todo_redux">ToDoList Redux</NavLink>
           <NavLink link="/notes">Notes Redux</NavLink>
