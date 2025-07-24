@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
         <Navbar />
-        <Router>
         <Routes>
         <Route path="/bmi_calc" element={<BMIElement />} />
         <Route path="/todo" element={<ToDoList />} />
@@ -19,7 +18,6 @@ function App() {
         <Route path="/notes" element={<NoteMain />} />
         <Route path="/todo_spring" element={<SpringTaskMain />} />
          </Routes>
-        </Router>
     </div>
   );
 }
