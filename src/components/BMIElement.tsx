@@ -30,8 +30,8 @@ export const BMIElement = () => {
           ? (wt * 10000) / (ht * ht)
           : NaN,
     });
-    console.log("bmi"+BMIStateObject.bmi+BMIStateObject+bindHt+bindWt);
-  }, [bindHt,bindWt]);
+    console.log("bmi", BMIStateObject.bmi, BMIStateObject, bindHt, bindWt);
+  }, [ht, wt]);
 
   return (
     <Box component="form">
