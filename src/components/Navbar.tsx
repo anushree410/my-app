@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import { AppBar, Box, Button, Typography, Toolbar, Link } from "@mui/material";
-import { Link as RouterLink } from "react-router-dom"; // ✅ use react-router link
 
 const NavLink = ({
   children,
