@@ -20,18 +20,18 @@ export const BMIElement = () => {
   const [ht, bindHt] = useInput({ initialValue: 0 });
   const [wt, bindWt] = useInput();
 
-  useEffect(() => {
-    setBMIState({
-      ...BMIStateObject,
-      hterr: ht < 140 || ht > 300,
-      wterr: wt < 30 || wt > 120,
-      bmi:
-        ht > 139 && ht < 301 && wt > 29 && wt < 121
-          ? (wt * 10000) / (ht * ht)
-          : NaN,
-    });
-    console.log("bmi", BMIStateObject.bmi, BMIStateObject, bindHt, bindWt);
-  }, [ht, wt]);
+   useEffect(() => {
+      const hterr = ht < 140 || ht > 300;
+      const wterr = wt < 30 || wt > 120;
+      const bmi = !hterr && !wterr ? (wt * 10000) / (ht * ht) : NaN;
+
+      setBMIState(prev => ({
+        ...prev,
+        hterr,
+        wterr,
+        bmi,
+      }));
+    }, [ht, wt]);
 
   return (
     <Box component="form">
