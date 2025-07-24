@@ -30,8 +30,8 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
 
       - name: Deploy to GitHub Pages
-        CI: false
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: false
         run: |
           npx gh-pages -d build -u "github-actions-bot <actions@github.com>" -r https://x-access-token:${GH_TOKEN}@github.com/anushree410/my-app.git
